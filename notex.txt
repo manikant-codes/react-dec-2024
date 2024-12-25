@@ -1,0 +1,4 @@
+Component ek aisa function hai jo andar se JSX return karta hai. Is function ka naam capital letter se shuru hona chahiye.
+Ye function sirf ek parameter leta hai, is parameter ko props kehte hai. Ye props ek object hota hai. Bahar se aap jo bhi values is component ko bhejo wo is props me milenge.
+
+Porps componet ko bahar se values bhejne ka ek tarika hua. Is se components ko re-useable banaya jaa sakta hai.
