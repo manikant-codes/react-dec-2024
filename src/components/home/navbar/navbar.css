@@ -1,0 +1,25 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 64px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 16px 0px;
+}
+
+.logo {
+  color: #2d465e;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 12px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.nav-links li a:hover {
+  color: #0d83fd;
+}
