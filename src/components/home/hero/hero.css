@@ -1,0 +1,62 @@
+/* Hero */
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Hero Info */
+.hero-info-container {
+  width: 100%;
+}
+
+.hero-tab {
+  padding: 12px 24px;
+  background-color: hsla(211, 98%, 52%, 0.089);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0d83fd;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: #2d465e;
+  margin-bottom: 16px;
+}
+
+.hero-title span {
+  font-size: 3.5rem;
+  color: #0d83fd;
+}
+
+.hero-para {
+  color: #212529;
+  margin-bottom: 32px;
+}
+
+.hero-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  background-color: transparent;
+  color: #2d465e;
+}
+
+.hero-action-btn {
+  height: 48px;
+}
+
+/* Hero Image */
+.hero-image {
+  height: 450px;
+  width: auto;
+}
