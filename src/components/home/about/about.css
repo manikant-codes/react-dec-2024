@@ -1,0 +1,58 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-image-container {
+  position: relative;
+  height: 400px;
+}
+
+.about-image-1 {
+  height: 100%;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.about-image-2 {
+  position: absolute;
+  height: 60%;
+  left: -40px;
+  top: 70%;
+  transform: translateY(-70%);
+  border: solid 8px white;
+  border-radius: 16px;
+}
+
+.about-image-info-container {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background-color: #0d83fd;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  animation-name: float;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+.about-image-info-digit {
+  font-size: 2rem;
+}
+
+@keyframes float {
+  from {
+    bottom: 24px;
+  }
+  to {
+    bottom: 44px;
+  }
+}
+
+.about-info-container {
+  margin-right: 80px;
+}

@@ -5,6 +5,7 @@ import Footer from "../components/home/Footer";
 import "./home.css";
 import Hero from "../components/home/hero/Hero";
 import Stats from "../components/home/stats/Stats";
+import About from "../components/home/about/About";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Stats />
+      <About />
       <Footer />
     </div>
   );
