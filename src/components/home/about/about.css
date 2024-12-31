@@ -56,3 +56,37 @@
 .about-info-container {
   margin-right: 80px;
 }
+
+.about-info-title {
+  color: var(--title);
+  margin-bottom: 16px;
+}
+
+.about-info-desc {
+  color: var(--body);
+  line-height: 24px;
+}
+
+.about-info-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.about-info-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-info-list-item-icon {
+  color: var(--accent);
+}
+
+.about-profile-container {
+  margin-top: 32px;
+}

@@ -1,3 +1,9 @@
+:root {
+  --accent: #0d83fd;
+  --title: #2d465e;
+  --body: #212529;
+}
+
 * {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
