@@ -1,12 +1,27 @@
-import "./navbar.css";
+// import "./navbar.css";
+
+// Is styles object me hamare banaye class aur unhe mile hue unique naam hote hai.
+// To mai styles.<apne-class-ka-naam> kar ke uska unique naam access kar sakta hun.
+import styles from "./navbar.module.css";
+
+console.log("styles", styles);
 
 function Navbar() {
   return (
-    <nav className="nav-container">
-      <h1 className="logo">iLandingPage</h1>
+    <nav
+      className={styles.container}
+      // className="_container_19i9r_1"
+    >
+      <h1
+        // className={"logo"} // Jab normal css file thim tab ye likha tha. Ab ye nahi chalega.
+        // className="_logo_1bt31_23" // Kuy ke ab class name ye hai.
+        className={styles.logo} // Ise aise likhenge kyu ke ye class name fix nahi hote hai, agle bar app chalu karo to hosakta hai class name badal jaye.
+      >
+        iLandingPage
+      </h1>
       <ul
-        className="nav-links"
-        style={{ listStyleType: "none", display: "flex", gap: "16px" }}
+        // className="nav-links"
+        className={styles.navLinks}
       >
         <li>
           <a href="">Home</a>

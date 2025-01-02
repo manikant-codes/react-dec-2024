@@ -1,4 +1,5 @@
-.nav-container {
+.container {
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,11 +16,17 @@
   margin-left: 12px;
 }
 
-.nav-links li a {
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.navLinks li a {
   text-decoration: none;
   color: #212529;
 }
 
-.nav-links li a:hover {
+.navLinks li a:hover {
   color: #0d83fd;
 }
