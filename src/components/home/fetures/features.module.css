@@ -1,0 +1,28 @@
+.container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.cardContainer {
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.cardIcon {
+  height: 36px;
+  width: 36px;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.cardDesc {
+  color: #555555;
+}

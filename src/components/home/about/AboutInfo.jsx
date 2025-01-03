@@ -3,6 +3,30 @@ import AboutInfoListItem from "./AboutInfoListItem";
 import Profile from "../../common/profile/Profile";
 
 function AboutInfo() {
+  // const listItems = [
+  //   <AboutInfoListItem text="Lorem ipsum dolor sit amet" />,
+  //   <AboutInfoListItem text="Consectetur adipiscing elit" />,
+  //   <AboutInfoListItem text="Sed do eiusmod tempor" />,
+  //   <AboutInfoListItem text="Incididunt ut labore et" />,
+  //   <AboutInfoListItem text="Dolore magna aliqua" />,
+  //   <AboutInfoListItem text="Ut enim ad minim veniam" />
+  // ];
+
+  const listItems = [];
+
+  const texts = [
+    "Lorem ipsum dolor sit amet",
+    "Consectetur adipiscing elit",
+    "Sed do eiusmod tempor",
+    "Incididunt ut labore et",
+    "Dolore magna aliqua",
+    "Ut enim ad minim veniam"
+  ];
+
+  for (const text of texts) {
+    listItems.push(<AboutInfoListItem text={text} />);
+  }
+
   return (
     <div className="about-info-container">
       <h2 className="about-info-title">Voluptas enim suscipit temporibus</h2>
@@ -13,12 +37,13 @@ function AboutInfo() {
         explicabo.
       </p>
       <ul className="about-info-list">
-        <AboutInfoListItem text="Lorem ipsum dolor sit amet" />
+        {/* <AboutInfoListItem text="Lorem ipsum dolor sit amet" />
         <AboutInfoListItem text="Consectetur adipiscing elit" />
         <AboutInfoListItem text="Sed do eiusmod tempor" />
         <AboutInfoListItem text="Incididunt ut labore et" />
         <AboutInfoListItem text="Dolore magna aliqua" />
-        <AboutInfoListItem text="Ut enim ad minim veniam" />
+        <AboutInfoListItem text="Ut enim ad minim veniam" /> */}
+        {listItems}
       </ul>
       <div className="about-profile-container">
         <Profile />

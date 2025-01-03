@@ -4,14 +4,18 @@ import Hero from "../../components/home/hero/Hero";
 import Navbar from "../../components/home/navbar/Navbar";
 import Stats from "../../components/home/stats/Stats";
 import "./home.css";
+import Features from "../../components/home/fetures/Features";
+import ListRendering from "../../components/home/ListRendering";
 
 function Home() {
   return (
     <div className="home-container">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Stats />
       <About />
+      <Features /> */}
+      <ListRendering />
     </div>
   );
 }
