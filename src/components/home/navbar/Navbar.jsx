@@ -4,8 +4,6 @@
 // To mai styles.<apne-class-ka-naam> kar ke uska unique naam access kar sakta hun.
 import styles from "./navbar.module.css";
 
-console.log("styles", styles);
-
 function Navbar() {
   return (
     <nav

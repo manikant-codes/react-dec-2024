@@ -8,8 +8,6 @@ import {
   faSun
 } from "@fortawesome/free-solid-svg-icons";
 
-console.log("styles", styles);
-
 function Features() {
   return (
     <div className={styles.container}>
