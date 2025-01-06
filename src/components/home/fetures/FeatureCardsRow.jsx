@@ -8,7 +8,7 @@ import {
   faSun
 } from "@fortawesome/free-solid-svg-icons";
 
-function Features() {
+function FeaturesCardsRow() {
   return (
     <div className={styles.container}>
       <FeatureCard
@@ -43,4 +43,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default FeaturesCardsRow;

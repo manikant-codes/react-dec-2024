@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 600px;
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.iconContainer {
+  background-color: #ecf5ff;
+  color: var(--accent);
+  padding: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer h3 {
+  color: var(--title);
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.textContainer p {
+  color: var(--body);
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.cardsOuterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

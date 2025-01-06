@@ -4,8 +4,9 @@ import Hero from "../../components/home/hero/Hero";
 import Navbar from "../../components/home/navbar/Navbar";
 import Stats from "../../components/home/stats/Stats";
 import "./home.css";
-import Features from "../../components/home/fetures/Features";
+import FeaturesCardsRow from "../../components/home/fetures/FeatureCardsRow";
 import ListRendering from "../../components/home/ListRendering";
+import FeaturesMobileRow from "../../components/home/fetures/FeaturesMobileRow";
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
       <Hero />
       <Stats />
       <About />
-      <Features /> */}
+      <FeaturesCardsRow />
+      <FeaturesMobileRow /> */}
       <ListRendering />
     </div>
   );
