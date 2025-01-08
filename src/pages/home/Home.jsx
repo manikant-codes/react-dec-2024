@@ -9,18 +9,20 @@ import ListRendering from "../../components/home/ListRendering";
 import FeaturesMobileRow from "../../components/home/fetures/FeaturesMobileRow";
 import ConditionalRendering from "../../components/home/ConditionalRendering";
 import { faComment, faTractor } from "@fortawesome/free-solid-svg-icons";
+import Clients from "../../components/home/clients/Clients";
 
 function Home() {
   return (
     <div className="home-container">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Stats />
       <About />
       <FeaturesCardsRow />
-      <FeaturesMobileRow /> */}
+      <FeaturesMobileRow />
+      <Clients />
       {/* <ListRendering /> */}
-      <div
+      {/* <div
         style={{
           display: "grid",
           gridTemplateColumns: "auto auto",
@@ -35,7 +37,7 @@ function Home() {
           url="https://img.freepik.com/premium-photo/colorful-lizard-with-red-eye-green-eye_924629-324416.jpg"
         />
         <ConditionalRendering icon={faTractor} />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.slideContainer {
+  width: 120px !important;
+  overflow: hidden;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideContainer img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.slideContainer img:hover {
+  width: 100%;
+  filter: grayscale(0%);
+}
