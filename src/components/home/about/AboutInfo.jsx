@@ -46,7 +46,11 @@ function AboutInfo() {
         {listItems}
       </ul>
       <div className="about-profile-container">
-        <Profile />
+        <Profile
+          image="https://bootstrapmade.com/content/demo/iLanding/assets/img/testimonials/testimonials-1.jpg"
+          name="Saul Goodman"
+          designation="Ceo & Founder"
+        />
       </div>
     </div>
   );

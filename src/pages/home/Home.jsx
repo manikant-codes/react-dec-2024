@@ -10,6 +10,7 @@ import FeaturesMobileRow from "../../components/home/fetures/FeaturesMobileRow";
 import ConditionalRendering from "../../components/home/ConditionalRendering";
 import { faComment, faTractor } from "@fortawesome/free-solid-svg-icons";
 import Clients from "../../components/home/clients/Clients";
+import TestimonialsRow from "../../components/home/testimonials/TestimonialsRow";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <FeaturesCardsRow />
       <FeaturesMobileRow />
       <Clients />
+      <TestimonialsRow />
       {/* <ListRendering /> */}
       {/* <div
         style={{

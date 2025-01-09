@@ -16,12 +16,12 @@
 }
 
 .profile-info-name {
-  color: var(--body);
+  color: var(--title);
   font-size: 1.05rem;
   font-weight: 600;
 }
 
 .profile-info-designation {
-  color: var(--accent);
+  color: var(--body);
   font-size: 0.85rem;
 }
