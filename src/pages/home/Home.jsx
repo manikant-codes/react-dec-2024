@@ -11,6 +11,7 @@ import ConditionalRendering from "../../components/home/ConditionalRendering";
 import { faComment, faTractor } from "@fortawesome/free-solid-svg-icons";
 import Clients from "../../components/home/clients/Clients";
 import TestimonialsRow from "../../components/home/testimonials/TestimonialsRow";
+import FiguresRow from "../../components/home/figures/FiguresRow";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <FeaturesMobileRow />
       <Clients />
       <TestimonialsRow />
+      <FiguresRow />
       {/* <ListRendering /> */}
       {/* <div
         style={{
