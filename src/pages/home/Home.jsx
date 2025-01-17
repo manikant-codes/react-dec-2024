@@ -12,11 +12,12 @@ import { faComment, faTractor } from "@fortawesome/free-solid-svg-icons";
 import Clients from "../../components/home/clients/Clients";
 import TestimonialsRow from "../../components/home/testimonials/TestimonialsRow";
 import FiguresRow from "../../components/home/figures/FiguresRow";
+import FaqsRow from "../../components/home/faqs/FaqsRow";
 
 function Home() {
   return (
     <div className="home-container">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Stats />
       <About />
@@ -24,8 +25,9 @@ function Home() {
       <FeaturesMobileRow />
       <Clients />
       <TestimonialsRow />
-      <FiguresRow /> */}
-      <ListRendering />
+      <FiguresRow />
+      <FaqsRow />
+      {/* <ListRendering /> */}
       {/* <div
         style={{
           display: "grid",

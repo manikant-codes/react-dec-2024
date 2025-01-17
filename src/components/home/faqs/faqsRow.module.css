@@ -1,0 +1,56 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.infoContainer {
+}
+
+.infoContainer h2 {
+  color: var(--title);
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.infoContainer p {
+  color: var(--body);
+  margin-bottom: 16px;
+}
+
+.infoContainer svg {
+  color: var(--accent);
+}
+
+.listItem {
+  margin-bottom: 32px;
+}
+
+.listItem p:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.listItem p:first-child button {
+  width: 28px;
+  height: 28px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem p:first-child button:hover {
+  cursor: pointer;
+}
+
+.listItem p:first-child button svg {
+  height: 0.85rem;
+}
+
+.listItem p:nth-child(2) {
+  color: var(--body);
+  line-height: 1.5rem;
+}
