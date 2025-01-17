@@ -16,7 +16,7 @@ import FiguresRow from "../../components/home/figures/FiguresRow";
 function Home() {
   return (
     <div className="home-container">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Stats />
       <About />
@@ -24,8 +24,8 @@ function Home() {
       <FeaturesMobileRow />
       <Clients />
       <TestimonialsRow />
-      <FiguresRow />
-      {/* <ListRendering /> */}
+      <FiguresRow /> */}
+      <ListRendering />
       {/* <div
         style={{
           display: "grid",
