@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "../../components/home/about/About";
 import Hero from "../../components/home/hero/Hero";
 import Navbar from "../../components/home/navbar/Navbar";
@@ -13,11 +13,12 @@ import Clients from "../../components/home/clients/Clients";
 import TestimonialsRow from "../../components/home/testimonials/TestimonialsRow";
 import FiguresRow from "../../components/home/figures/FiguresRow";
 import FaqsRow from "../../components/home/faqs/FaqsRow";
+import UseStateDemo from "../../components/home/UseStateDemo";
 
 function Home() {
   return (
     <div className="home-container">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <Stats />
       <About />
@@ -26,7 +27,7 @@ function Home() {
       <Clients />
       <TestimonialsRow />
       <FiguresRow />
-      <FaqsRow />
+      <FaqsRow /> */}
       {/* <ListRendering /> */}
       {/* <div
         style={{
@@ -44,6 +45,7 @@ function Home() {
         />
         <ConditionalRendering icon={faTractor} />
       </div> */}
+      <UseStateDemo />
     </div>
   );
 }
