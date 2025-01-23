@@ -14,20 +14,23 @@ import TestimonialsRow from "../../components/home/testimonials/TestimonialsRow"
 import FiguresRow from "../../components/home/figures/FiguresRow";
 import FaqsRow from "../../components/home/faqs/FaqsRow";
 import UseStateDemo from "../../components/home/UseStateDemo";
+import UseStateCountDemo from "../../components/home/UseStateCountDemo";
+import FeaturesTabsRow from "../../components/home/fetures/FeaturesTabsRow";
 
 function Home() {
   return (
     <div className="home-container">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Stats />
       <About />
+      <FeaturesTabsRow />
       <FeaturesCardsRow />
       <FeaturesMobileRow />
       <Clients />
       <TestimonialsRow />
       <FiguresRow />
-      <FaqsRow /> */}
+      <FaqsRow />
       {/* <ListRendering /> */}
       {/* <div
         style={{
@@ -45,7 +48,8 @@ function Home() {
         />
         <ConditionalRendering icon={faTractor} />
       </div> */}
-      <UseStateDemo />
+      {/* <UseStateDemo /> */}
+      {/* <UseStateCountDemo /> */}
     </div>
   );
 }

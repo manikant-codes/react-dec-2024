@@ -5,6 +5,7 @@
 import styles from "./navbar.module.css";
 
 function Navbar() {
+  console.log("Navbar");
   return (
     <nav
       className={styles.container}

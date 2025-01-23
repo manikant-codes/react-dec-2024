@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
 
 function UseStateDemo() {
   //   const arr = useState("Ram");

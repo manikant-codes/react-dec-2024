@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function Stats() {
+  console.log("Stats");
   return (
     <div className="stats-container">
       <StatsCard

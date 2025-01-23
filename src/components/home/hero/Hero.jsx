@@ -4,6 +4,7 @@ import HeroImage from "./HeroImage";
 import "./hero.css";
 
 function Hero() {
+  console.log("Home");
   return (
     <div className="hero-container">
       <HeroInfo />
