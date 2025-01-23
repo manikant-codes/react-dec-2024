@@ -1,0 +1,13 @@
+.titleContainer {
+  text-align: center;
+}
+
+.titleContainer h2 {
+  color: var(--title);
+}
+
+.titleContainer hr {
+  width: 50px;
+  margin: 16px auto;
+  border: solid 2px var(--accent);
+}

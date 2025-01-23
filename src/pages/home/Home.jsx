@@ -16,6 +16,7 @@ import FaqsRow from "../../components/home/faqs/FaqsRow";
 import UseStateDemo from "../../components/home/UseStateDemo";
 import UseStateCountDemo from "../../components/home/UseStateCountDemo";
 import FeaturesTabsRow from "../../components/home/fetures/FeaturesTabsRow";
+import PricingRow from "../../components/home/pricing/PricingRow";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
       <TestimonialsRow />
       <FiguresRow />
       <FaqsRow />
+      <PricingRow />
       {/* <ListRendering /> */}
       {/* <div
         style={{

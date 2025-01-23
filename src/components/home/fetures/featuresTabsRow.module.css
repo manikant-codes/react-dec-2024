@@ -23,3 +23,51 @@
 .tabsContainer button {
   cursor: pointer;
 }
+
+.tabContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tabImageContainer img {
+  width: 100%;
+}
+
+.tabTextContainer h3 {
+  font-size: 2rem;
+  color: var(--title);
+}
+
+.tabTextContainer hr {
+  width: 75px;
+  border: solid 2px var(--accent);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.tabTextContainer p {
+  margin-bottom: 16px;
+}
+
+.tabTextContainer ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tabTextContainer ul li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tabTextContainer ul li p {
+  margin: 0px;
+}
+
+.tabTextContainer ul li svg {
+  color: var(--accent);
+}
