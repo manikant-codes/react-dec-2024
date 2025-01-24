@@ -42,3 +42,15 @@
   background-color: white !important;
   color: #3b99fd !important;
 }
+
+.cardContainer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px;
+}
+
+.cardContainer ul li::before {
+  content: "- ";
+}

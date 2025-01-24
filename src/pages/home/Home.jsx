@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import About from "../../components/home/about/About";
 import Hero from "../../components/home/hero/Hero";
-import Navbar from "../../components/home/navbar/Navbar";
+import Navbar from "../../components/common/navbar/Navbar";
 import Stats from "../../components/home/stats/Stats";
 import "./home.css";
 import FeaturesCardsRow from "../../components/home/fetures/FeatureCardsRow";
@@ -17,11 +17,11 @@ import UseStateDemo from "../../components/home/UseStateDemo";
 import UseStateCountDemo from "../../components/home/UseStateCountDemo";
 import FeaturesTabsRow from "../../components/home/fetures/FeaturesTabsRow";
 import PricingRow from "../../components/home/pricing/PricingRow";
+import Footer from "../../components/common/footer/Footer";
 
 function Home() {
   return (
     <div className="home-container">
-      <Navbar />
       <Hero />
       <Stats />
       <About />
@@ -33,6 +33,7 @@ function Home() {
       <FiguresRow />
       <FaqsRow />
       <PricingRow />
+
       {/* <ListRendering /> */}
       {/* <div
         style={{
