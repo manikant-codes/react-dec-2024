@@ -22,6 +22,23 @@ function Contact() {
     });
   }
 
+  // function handleChange(e) {
+  //   const formData = {
+  //     name: e.target.name.value,
+  //     email: e.target.email.value,
+  //     subject: e.target.subject.value,
+  //     message: e.target.message.value
+  //   };
+
+  //   fetch("https://jsonplaceholder.typicode.com/posts", {
+  //     method: "POST",
+  //     body: JSON.stringify(formData),
+  //     headers: {
+  //       "Content-Type": "application/json"
+  //     }
+  //   });
+  // }
+
   function handleChange(e) {
     setFormState({
       // name: formState.name,
